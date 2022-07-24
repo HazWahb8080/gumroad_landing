@@ -12,11 +12,27 @@ function Hero() {
             Go from <br /> zero to $1
           </h1>
           <h1 className="2xl:text-4xl text-3xl pb-12">
-            With Gumroad, anyone can earn their first dollar online. Just start
-            with what you know, see what sticks, and get paid.
+            With Gumroad, anyone can earn their first dollar online. Just
+            start`` with what you know, see what sticks, and get paid.
             <br /> It’s that easy.
           </h1>
-          <button className="selling-btn"> Start Selling </button>
+          <div className=" h-[150px] w-full items-start py-3 flex flex-col justify-start">
+            <button className="selling-btn peer z-40 hover:-translate-y-3 hover:-translate-x-1 transition-all ease-in-out duration-300">
+              Start Selling
+            </button>
+            <button
+              className="selling-btn z-30 bg-[#FF90E8] border border-black -mt-[50px] peer-hover:-translate-y-3 peer-hover:translate-x-1
+              duration-[700ms] ease-in-out transition-all peer-hover:flex hidden"
+            >
+              Start Selling
+            </button>
+            <button
+              className="selling-btn z-20 bg-[#FFC900] border border-black -mt-[50px] peer-hover:-translate-y-3 peer-hover:translate-x-3
+              duration-[400ms] ease-in-out transition-all peer-hover:flex hidden"
+            >
+              Start Selling
+            </button>
+          </div>
         </div>
       </div>
       {/* right part */}
