@@ -32,7 +32,7 @@
       position: sticky;
       top: 0;
   }
-}
+
 .navlink{
   background-image: 
   linear-gradient(
@@ -50,4 +50,12 @@
 .navlink:hover {
   background-size: 100% 20%;
   background-position-x: left;
+}
+.tag-btn{
+  @apply px-2 border-black bg-gray-100 text-black text-sm mr-2 rounded-full py-1 
+  border hover:-translate-y-2 transition-all ease-in-out duration-300 hover:-translate-x-2
+}
+.tag-btn-below{
+  @apply bg-black text-black tag-btn
+}
 }

@@ -8,7 +8,7 @@ function Hero() {
       {/* left part */}
       <div className="bg-[#FF90E8] 2xl:h-[888px] xl:px-36 px-12 w-full items-start justify-start flex flex-col 2xl:border-r-2 border-black">
         <div className=" w-full items-start py-24 justify-start flex flex-col ">
-          <h1 className="2xl:text-9xl lg:text-7xl text-6xl font-medium py-12">
+          <h1 className="2xl:text-8xl lg:text-7xl text-6xl font-medium py-12">
             Go from <br /> zero to $1
           </h1>
           <h1 className="2xl:text-4xl text-3xl pb-12">
