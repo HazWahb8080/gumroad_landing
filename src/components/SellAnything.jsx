@@ -30,7 +30,7 @@ function SellAnything() {
         </h3>
         <div className="px-12 space-y-2 font-medium text-xl">
           {points.map((point) => (
-            <h1> ---- {point}</h1>
+            <h1 key={point}> ---- {point}</h1>
           ))}
         </div>
       </div>

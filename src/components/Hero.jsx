@@ -43,7 +43,7 @@ function Hero() {
             alt="heroimage"
             className="w-[600px] h-[600px] object-fit object-center "
           />
-          <img src={brush_link} className="-ml-24" />
+          <img alt="brush-icon" src={brush_link} className="-ml-24" />
         </div>
       </div>
     </div>

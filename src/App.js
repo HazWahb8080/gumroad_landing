@@ -16,12 +16,14 @@ import Sponsor from "./components/Sponsor";
 import Share from "./components/Share";
 import Footer from "./components/Footer";
 import GreatIdeas from "./components/GreatIdeas";
+import Discover from './components/discover/Discover';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Hero />
+      <Discover/>
       <GreatIdeas />
       <SmallBits />
       <MakeOwn />

@@ -59,7 +59,9 @@ function Header() {
         )}
         <div className="items-start justify-start space-x-10 lg:flex hidden pl-12 ">
           {navlinks.map((link) => (
-            <p className="text-lg navlink cursor-pointer">{link}</p>
+            <p key={link} className="text-lg navlink cursor-pointer">
+              {link}
+            </p>
           ))}
         </div>
         <div className=" items-center justify-center lg:flex hidden">
