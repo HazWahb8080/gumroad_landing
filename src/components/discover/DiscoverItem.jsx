@@ -1,7 +1,7 @@
 import React from "react";
 
 function DiscoverItem({ item }) {
-  const { title, desc, icon, color, tags } = item;
+  const { title, desc, icon, color, tags } = item; //destructring
   return (
     <div
       className={`${color} w-full my-4 items-center justify-center flex flex-col border border-black rounded-lg py-2 px-3 `}
