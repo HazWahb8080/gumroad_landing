@@ -21,7 +21,7 @@ function Header() {
           className="w-[2000px] px-6 py-4 mb-6 lg:flex hidden "
         />
         {/* this is just works as an anchor for Intersection observer */}
-        <div ref={ref} className="w-full py-1 lg:flex hidden "></div>
+        <div ref={ref} className="w-full py-1 lg:flex hidden"></div>
       </div>
 
       {/* navbar */}
